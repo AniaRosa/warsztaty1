@@ -28,6 +28,7 @@ public class Main {
             } else {
                 System.out.println("Zgadłeś za " + l + " razem");
                 win = true;
+
             }
         }
     }
