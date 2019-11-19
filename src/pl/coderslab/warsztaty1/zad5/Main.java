@@ -17,10 +17,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        String urlList = "pl/coderslab/warsztaty1/zad5/urlList.txt";
-        String wordsList = "pl/coderslab/warsztaty1/zad5/wordsList.txt";
-        String popularWords = "pl/coderslab/warsztaty1/zad5/popular_words.txt";
-        String filteredPopularWords = "pl/coderslab/warsztaty1/zad5/filtered_popular_words.txt";
+        String urlList = "src/pl/coderslab/warsztaty1/zad5/urlList.txt";
+        String wordsList = "src/pl/coderslab/warsztaty1/zad5/wordsList.txt";
+        String popularWords = "src/pl/coderslab/warsztaty1/zad5/popular_words.txt";
+        String filteredPopularWords = "src/pl/coderslab/warsztaty1/zad5/filtered_popular_words.txt";
 
         String[] urlTable = createTable(urlList);
         String[] specialSignsTable = createTable(wordsList);
