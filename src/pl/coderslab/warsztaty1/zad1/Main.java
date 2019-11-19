@@ -9,7 +9,7 @@ public class Main {
 
         Random r = new Random();
         int wylosowanaLiczba = r.nextInt(100)+1;
-        System.out.println("Wylosowałem liczbę, zgadnij jaką?");
+        System.out.println("Wylosowałem liczbę z zakresu 1 - 100, zgadnij jaką?");
 
         boolean win = false;
         int l = 0, liczbaSzans = 4;
