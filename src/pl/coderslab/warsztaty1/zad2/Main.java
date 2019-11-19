@@ -22,7 +22,6 @@ public class Main {
         System.out.println(checkWin(numbersSelected, drawnNumbers));
 
         return 1;
-
     }
 
     static int[] selectNumbers() {
@@ -104,7 +103,6 @@ public class Main {
                 }
             }
         }
-
         if (theSame < 3) {
             result += "Brak wygranej!";
         } else if (theSame == 3) {
@@ -116,7 +114,6 @@ public class Main {
         } else if (theSame == 6) {
             result += "Masz szóstkę!!!";
         }
-
         return result;
     }
 }
